@@ -59,6 +59,8 @@ class OpenWeatherViewController: UIViewController {
         let tapAction = UITapGestureRecognizer(target: self, action: #selector(didTapTemperatureLabel))
         tempLabel.isUserInteractionEnabled = true
         tempLabel.addGestureRecognizer(tapAction)
+        tempLabel.accessibilityTraits = [UIAccessibilityTraits.button]
+        tempLabel.accessibilityHint = "Tap to change temperature measurement unit"
     }
     
     func mapViewModelValuesToViews(viewModel: OpenWeatherViewModel) {

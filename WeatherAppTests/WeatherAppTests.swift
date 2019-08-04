@@ -23,8 +23,6 @@ class WeatherAppTests: XCTestCase {
     let imageView = UIImageView(frame: .zero)
 
     override func setUp() {
-        // Arrange
-        
         vc = OpenWeatherViewController()
         
         vc.tempLabel = tempLabel
@@ -97,7 +95,7 @@ class WeatherAppTests: XCTestCase {
     }
     
     func testViewModelRenderingToViewControllerSubViews() {
-        
+
         let mainModel = MainModel(temp: 283.4, pressure: 1015.38, humidity: 98, temp_min: 283.4, temp_max: 283.4)
         let weatherModel = WeatherModel(id: 3669881, main: "Rain", description: "light rain", icon: "10n")
         let openWeatherModel = OpenWeatherModel(weather: [weatherModel], main: mainModel)
