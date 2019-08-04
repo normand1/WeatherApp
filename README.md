@@ -37,4 +37,12 @@ This was a project completed in a very short amount of time so here is a list of
 
 - Snapshot comparison testing to ensure pixel perfect UI
 - UI Testing the user critical paths
-- localization for multiple languages
+- Localization for multiple languages
+- Deep accessibility review to ensure all users can use all functionality
+- Basic integration testing with the OpenWeather API to ensure api changes haven't broken the app
+- Cover some of the remaining code paths through the app that are not tested via unit tests
+- Run an advanced code meta analysis tool like "slather" and fix issues discovered
+- Include swift lint in the build step of Xcode to ensure adherence to minimum code style guidelines established for the project
+- Use a code generation tool to generate models and network code between the OpenWeather API and the app to minimize the chance for miscommunication errors or the overhead of dealing with breaking changes to the API
+- Run updates to the project through a minimal CICD pipeline instead of direct commits to master
+- and more!
