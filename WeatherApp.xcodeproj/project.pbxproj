@@ -114,14 +114,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4A81E67F22F64CE8004AC0E8 /* WeatherViewController */ = {
+		4A81E67F22F64CE8004AC0E8 /* WeatherView */ = {
 			isa = PBXGroup;
 			children = (
 				4AF98B1822F5124F00889113 /* OpenWeatherViewController.swift */,
 				4A81E67722F54B31004AC0E8 /* OpenWeatherInteractor.swift */,
 				4A81E67B22F61DEF004AC0E8 /* OpenWeatherViewModel.swift */,
 			);
-			path = WeatherViewController;
+			path = WeatherView;
 			sourceTree = "<group>";
 		};
 		4A81E68022F64D1B004AC0E8 /* Utilities */ = {
@@ -178,7 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				4AF98B1622F5124F00889113 /* AppDelegate.swift */,
-				4A81E67F22F64CE8004AC0E8 /* WeatherViewController */,
+				4A81E67F22F64CE8004AC0E8 /* WeatherView */,
 				4A81E68022F64D1B004AC0E8 /* Utilities */,
 				4A81E68122F64D49004AC0E8 /* API */,
 				4AF98B1A22F5124F00889113 /* Main.storyboard */,
